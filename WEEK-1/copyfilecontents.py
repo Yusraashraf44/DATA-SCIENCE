@@ -1,6 +1,0 @@
-source_file=open("list.py","r")
-contents=source_file.read()
-source_file.close()
-destination_file=open("list1.py","w")
-destination_file.write(contents)
-destination_file.close()
