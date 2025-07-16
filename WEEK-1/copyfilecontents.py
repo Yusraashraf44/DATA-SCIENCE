@@ -1,0 +1,6 @@
+source_file=open("h.txt","r")
+contents=source_file.read()
+source_file.close()
+destination_file=open("p.txt","w")
+destination_file.write(contents)
+destination_file.close()
